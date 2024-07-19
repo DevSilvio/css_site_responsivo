@@ -214,9 +214,9 @@ aside .linha {
     .foto:target {
         z-index: 1;
         position: fixed;
-        width: 70%;
-        top: 30%;
-        left: 15%;
+        width: 45%;
+        top: 15%;
+        left: 25%;
         padding: 15px;
         border: 2px solid #000;
         border-radius: 10px;
