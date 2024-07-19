@@ -214,9 +214,9 @@ aside .linha {
     .foto:target {
         z-index: 1;
         position: fixed;
-        width: 45%;
+        width: 70%;
         top: 15%;
-        left: 25%;
+        left: 20%;
         padding: 15px;
         border: 2px solid #000;
         border-radius: 10px;
@@ -271,9 +271,9 @@ aside .linha {
         top: 40%;
         left: 15%;
         padding: 10px;
-        border:none;
+        border: 2px solid #000;
         border-radius: 10px;
-        background-color: #198af3;
+        background-color: #198af3c9;
     }
 
     .logo img {
