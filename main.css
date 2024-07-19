@@ -108,6 +108,41 @@ aside .linha {
     column-gap: 3%;
 }
 
+.foto img {
+    width: 100%;
+    margin-top: 12px;
+}
+
+.detalhes {
+    display: none;
+}
+
+.detalhes a {
+    color: #000;
+        text-decoration: none;
+        font-style: italic;
+        font-weight: bold;
+        margin-left: 12%;
+        background-color: #f80303d7;
+        padding: 8px;
+        border-radius: 3px;
+}
+
+.foto:target {
+    position: fixed;
+    width: 35%;
+    top: 10%;
+    left: 35%;
+    padding: 15px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #198af3c9;
+}
+
+.foto:target .detalhes {
+    display: block;
+}
+
 .tenis p {
     margin-bottom: 8px;
 }
@@ -127,7 +162,6 @@ aside .linha {
 }
 
 .tenis img:hover {
-    opacity: 0.5;
     cursor: pointer;
 }
 
@@ -140,19 +174,57 @@ aside .linha {
         max-width: 90%;
     }
 
+    .sobre img{
+        max-width: 60%;
+        margin-left: 25%;
+    }
+
     .vitrine {
         display: grid;
-        grid-template-columns: repeat(2, 48%);
-        column-gap: 3%;
+        grid-template-columns: repeat(2, 38%);
+        column-gap: 20%;
         align-items: center;
     }
 
     .tenis img {
-        width: 75%;
-        margin-left: 45px;
+        max-width: 90%;
+        margin-left: 25px;
     }
     .logo img {
         width: 100%;
+    }
+
+    .foto img {
+        width:  100%;
+        margin-top: 10px;
+        position: relative;
+    }
+    
+    .detalhes a {
+        color: #000;
+        text-decoration: none;
+        font-style: italic;
+        font-weight: bold;
+        margin-left: 12%;
+        background-color: #f80303d7;
+        padding: 8px;
+        border-radius: 3px;
+    }
+    
+    .foto:target {
+        z-index: 1;
+        position: fixed;
+        width: 70%;
+        top: 30%;
+        left: 15%;
+        padding: 15px;
+        border: 2px solid #000;
+        border-radius: 10px;
+        background-color: #198af3c9;
+    }
+    
+    .foto:target .detalhes {
+        display: block;
     }
 }
 
@@ -166,12 +238,42 @@ aside .linha {
     }
 
     .vitrine {
+        max-width: 60%;
         display: block
     }
 
     .tenis img {
-        width: 80%;
-        margin-left: 35px;
+        max-width: 85%;
+        margin-left: 8%;
+    }
+
+    .foto img {
+        width:  100%;
+        margin-top: 10px;
+        position: relative;
+    }
+    
+    .detalhes a {
+        color: #000;
+        text-decoration: none;
+        font-style: italic;
+        font-weight: bold;
+        margin-left: 12%;
+        background-color: #f80303d7;
+        padding: 8px;
+        border-radius: 3px;
+    }
+    
+    .foto:target {
+        z-index: 1;
+        position: fixed;
+        width: 70%;
+        top: 40%;
+        left: 15%;
+        padding: 10px;
+        border:none;
+        border-radius: 10px;
+        background-color: #198af3;
     }
 
     .logo img {
